@@ -10,3 +10,6 @@ https://www.netfilter.org/documentation/
 https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html
 
 https://github.com/trimstray/iptables-essentials
+
+目前 OpenWrt 中对 nftables 的支持不完善，大部分应用是基于 iptables实现的。
+nftables与iptables不能并存（主要在nat部分有冲突，具体参见openwrt wiki文档）。
